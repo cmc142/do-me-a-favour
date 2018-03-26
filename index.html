@@ -1,0 +1,509 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Do me a favor</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/favor-list.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <header>
+            <div class="center-wrapper clearfix">
+                <h1 class="logo"><a href="index.html"><span>Do</span><span>me a</span><span>favor</span></a></h1>
+                <div class="user-actions-wrapper">
+                    <a href="#" class="button sign-in">
+                        <i class="fa fa-sign-in"></i>
+                        Sign in
+                    </a>
+                    <a href="#" class="button sign-up">
+                        <i class="fa fa-user-plus"></i>
+                        Sign up
+                    </a>
+                </div>
+            </div>
+        </header>
+        <main>
+
+        <a href="create-favor.html" class="button action-button create-favor">
+            <i class="fa fa-plus-square"></i>
+            Ask a Favor
+        </a>
+
+        <form id="search-form" action="">
+            <div class="search-wrapper">
+                <i class="fa fa-search fa-2x" aria-hidden="true"></i>
+                <input id="search" name="search" type="search" placeholder="Search favors...">
+            </div>
+            <div class="search-controls">
+                <div class="select sort-by">
+                    <span class="placeholder">Sort by</span>
+                        <ul>
+                            <li data-value="closest">Closest</li>
+                            <li data-value="rating">Rating</li>
+                            <li data-value="name">Name</li>
+                            <li data-value="newest">Newest</li>
+                            <li data-value="most_viewed">Most viewed</li>
+                        </ul>
+                    <input type="hidden" name="sort-by"/>
+                </div>
+                <div class="select select-category">
+                    <span class="placeholder">Select category</span>
+                        <ul>
+                            <li data-value="images">Images</li>
+                            <li data-value="questions">Questions</li>
+                            <li data-value="experiments">Experiments</li>
+                            <li data-value="brave">For the brave</li>
+                            <li data-value="funny">Funny</li>
+                        </ul>
+                    <input type="hidden" name="select-category"/>
+                </div>
+            </div>
+        </form>
+
+        <ul class="favor-list clearfix">
+            <li>
+                <article class="favor clearfix">
+                    <h2>Test favor 1 very long title</h2>
+                    <aside class="favor-details">
+                        <div class="favor-likes">
+                            <i class="fa fa-thumbs-up"></i>
+                            <span>825</span>
+                        </div>
+                        <div class="favor-views">
+                            <i class="fa fa-eye"></i>
+                            <span>1243</span>
+                        </div>
+                    </aside>
+                    <p class="description">Lorem ipsum dolor sit amet, consequat risus curabitur ut donec proin malesuada, et vestibulum, vel et laoreet, facilisi dolor fusce dui. Sapien ultrices quis eu et ac. Lacus torquent ac, malesuada vestibulum, et interdum in vel dictum et libero. Nam varius semper neque eu, adipiscing purus tortor eget, fames inceptos nulla nullam, faucibus massa sed fringilla integer quis aenean. Non donec congue duis, massa pellentesque nonummy id turpis at, nam integer</p>
+                    <div class="locations">
+                        <h3>Locations</h3>
+                        <ul>
+                            <li>New Taipei City, Republic of China (Taiwan)</li>
+                            <li>Moscow, Russia</li>
+                            <li>Baghdad, Iraq</li>
+                        </ul>
+                    </div>
+                    <div class="byline">
+                        <address class="author">By <a rel="author" href="#">Heath Stine</a></address>
+                        9 days ago
+                    </div>
+                    <div class="read-more-wrapper">
+                        <a href="view-favor.html" class="button read-more">Read more</a>
+                    </div>
+                </article>
+            </li>
+            <li>
+                <article class="favor clearfix">
+                    <h2>Test favor 2</h2>
+                    <aside class="favor-details">
+                        <div class="favor-likes">
+                            <i class="fa fa-thumbs-up"></i>
+                            <span>825</span>
+                        </div>
+                        <div class="favor-views">
+                            <i class="fa fa-eye"></i>
+                            <span>1243</span>
+                        </div>
+                    </aside>
+                    <p class="description">Donec tortor morbi in posuere dui. Amet vehicula lorem at velit fringilla sit, molestie per eget, iaculis risus sapien, euismod maecenas adipiscing et ante, at dolor quis officiis. Ut adipiscing nullam nulla aliquam erat, ac non risus sit mi praesent sit, libero vestibulum. Eget in nec blandit semper venenatis, neque mus dui nunc, dui ante. Aenean a donec phasellus sed</p>
+                    <div class="locations">
+                        <h3>Locations</h3>
+                        <ul>
+                            <li>New Taipei City, Republic of China (Taiwan)</li>
+                            <li>Moscow, Russia</li>
+                            <li>Baghdad, Iraq</li>
+                        </ul>
+                    </div>
+                    <div class="byline">
+                        <address class="author">By <a rel="author" href="#">Debrah Trevino</a></address>
+                        10 days ago
+                    </div>
+                    <div class="read-more-wrapper">
+                        <a href="view-favor.html" class="button read-more">Read more</a>
+                    </div>
+                </article>
+            </li>
+            <li>
+                <article class="favor clearfix">
+                    <h2>Test favor 2</h2>
+                    <aside class="favor-details">
+                        <div class="favor-likes">
+                            <i class="fa fa-thumbs-up"></i>
+                            <span>825</span>
+                        </div>
+                        <div class="favor-views">
+                            <i class="fa fa-eye"></i>
+                            <span>1243</span>
+                        </div>
+                    </aside>
+                    <p class="description">Donec tortor morbi in posuere dui. Amet vehicula lorem at velit fringilla sit, molestie per eget, iaculis risus sapien, euismod maecenas adipiscing et ante, at dolor quis officiis. Ut adipiscing nullam nulla aliquam erat, ac non risus sit mi praesent sit, libero vestibulum. Eget in nec blandit semper venenatis, neque mus dui nunc, dui ante. Aenean a donec phasellus sed</p>
+                    <div class="locations">
+                        <h3>Locations</h3>
+                        <ul>
+                            <li>New Taipei City, Republic of China (Taiwan)</li>
+                            <li>Moscow, Russia</li>
+                            <li>Baghdad, Iraq</li>
+                        </ul>
+                    </div>
+                    <div class="byline">
+                        <address class="author">By <a rel="author" href="#">Debrah Trevino</a></address>
+                        10 days ago
+                    </div>
+                    <div class="read-more-wrapper">
+                        <a href="view-favor.html" class="button read-more">Read more</a>
+                    </div>
+                </article>
+            </li>
+            <li>
+                <article class="favor clearfix">
+                    <h2>Test favor 2</h2>
+                    <aside class="favor-details">
+                        <div class="favor-likes">
+                            <i class="fa fa-thumbs-up"></i>
+                            <span>825</span>
+                        </div>
+                        <div class="favor-views">
+                            <i class="fa fa-eye"></i>
+                            <span>1243</span>
+                        </div>
+                    </aside>
+                    <p class="description">Donec tortor morbi in posuere dui. Amet vehicula lorem at velit fringilla sit, molestie per eget, iaculis risus sapien, euismod maecenas adipiscing et ante, at dolor quis officiis. Ut adipiscing nullam nulla aliquam erat, ac non risus sit mi praesent sit, libero vestibulum. Eget in nec blandit semper venenatis, neque mus dui nunc, dui ante. Aenean a donec phasellus sed</p>
+                    <div class="locations">
+                        <h3>Locations</h3>
+                        <ul>
+                            <li>New Taipei City, Republic of China (Taiwan)</li>
+                            <li>Moscow, Russia</li>
+                            <li>Baghdad, Iraq</li>
+                        </ul>
+                    </div>
+                    <div class="byline">
+                        <address class="author">By <a rel="author" href="#">Debrah Trevino</a></address>
+                        10 days ago
+                    </div>
+                    <div class="read-more-wrapper">
+                        <a href="view-favor.html" class="button read-more">Read more</a>
+                    </div>
+                </article>
+            </li>
+            <li>
+                <article class="favor clearfix">
+                    <h2>Test favor 2</h2>
+                    <aside class="favor-details">
+                        <div class="favor-likes">
+                            <i class="fa fa-thumbs-up"></i>
+                            <span>825</span>
+                        </div>
+                        <div class="favor-views">
+                            <i class="fa fa-eye"></i>
+                            <span>1243</span>
+                        </div>
+                    </aside>
+                    <p class="description">Donec tortor morbi in posuere dui. Amet vehicula lorem at velit fringilla sit, molestie per eget, iaculis risus sapien, euismod maecenas adipiscing et ante, at dolor quis officiis. Ut adipiscing nullam nulla aliquam erat, ac non risus sit mi praesent sit, libero vestibulum. Eget in nec blandit semper venenatis, neque mus dui nunc, dui ante. Aenean a donec phasellus sed</p>
+                    <div class="locations">
+                        <h3>Locations</h3>
+                        <ul>
+                            <li>New Taipei City, Republic of China (Taiwan)</li>
+                            <li>Moscow, Russia</li>
+                            <li>Baghdad, Iraq</li>
+                        </ul>
+                    </div>
+                    <div class="byline">
+                        <address class="author">By <a rel="author" href="#">Debrah Trevino</a></address>
+                        10 days ago
+                    </div>
+                    <div class="read-more-wrapper">
+                        <a href="view-favor.html" class="button read-more">Read more</a>
+                    </div>
+                </article>
+            </li>
+            <li>
+                <article class="favor clearfix">
+                    <h2>Test favor 2</h2>
+                    <aside class="favor-details">
+                        <div class="favor-likes">
+                            <i class="fa fa-thumbs-up"></i>
+                            <span>825</span>
+                        </div>
+                        <div class="favor-views">
+                            <i class="fa fa-eye"></i>
+                            <span>1243</span>
+                        </div>
+                    </aside>
+                    <p class="description">Donec tortor morbi in posuere dui. Amet vehicula lorem at velit fringilla sit, molestie per eget, iaculis risus sapien, euismod maecenas adipiscing et ante, at dolor quis officiis. Ut adipiscing nullam nulla aliquam erat, ac non risus sit mi praesent sit, libero vestibulum. Eget in nec blandit semper venenatis, neque mus dui nunc, dui ante. Aenean a donec phasellus sed</p>
+                    <div class="locations">
+                        <h3>Locations</h3>
+                        <ul>
+                            <li>New Taipei City, Republic of China (Taiwan)</li>
+                            <li>Moscow, Russia</li>
+                            <li>Baghdad, Iraq</li>
+                        </ul>
+                    </div>
+                    <div class="byline">
+                        <address class="author">By <a rel="author" href="#">Debrah Trevino</a></address>
+                        10 days ago
+                    </div>
+                    <div class="read-more-wrapper">
+                        <a href="view-favor.html" class="button read-more">Read more</a>
+                    </div>
+                </article>
+            </li>
+            <li>
+                <article class="favor clearfix">
+                    <h2>Test favor 2</h2>
+                    <aside class="favor-details">
+                        <div class="favor-likes">
+                            <i class="fa fa-thumbs-up"></i>
+                            <span>825</span>
+                        </div>
+                        <div class="favor-views">
+                            <i class="fa fa-eye"></i>
+                            <span>1243</span>
+                        </div>
+                    </aside>
+                    <p class="description">Donec tortor morbi in posuere dui. Amet vehicula lorem at velit fringilla sit, molestie per eget, iaculis risus sapien, euismod maecenas adipiscing et ante, at dolor quis officiis. Ut adipiscing nullam nulla aliquam erat, ac non risus sit mi praesent sit, libero vestibulum. Eget in nec blandit semper venenatis, neque mus dui nunc, dui ante. Aenean a donec phasellus sed</p>
+                    <div class="locations">
+                        <h3>Locations</h3>
+                        <ul>
+                            <li>New Taipei City, Republic of China (Taiwan)</li>
+                            <li>Moscow, Russia</li>
+                            <li>Baghdad, Iraq</li>
+                        </ul>
+                    </div>
+                    <div class="byline">
+                        <address class="author">By <a rel="author" href="#">Debrah Trevino</a></address>
+                        10 days ago
+                    </div>
+                    <div class="read-more-wrapper">
+                        <a href="view-favor.html" class="button read-more">Read more</a>
+                    </div>
+                </article>
+            </li>
+            <li>
+                <article class="favor clearfix">
+                    <h2>Test favor 2</h2>
+                    <aside class="favor-details">
+                        <div class="favor-likes">
+                            <i class="fa fa-thumbs-up"></i>
+                            <span>825</span>
+                        </div>
+                        <div class="favor-views">
+                            <i class="fa fa-eye"></i>
+                            <span>1243</span>
+                        </div>
+                    </aside>
+                    <p class="description">Donec tortor morbi in posuere dui. Amet vehicula lorem at velit fringilla sit, molestie per eget, iaculis risus sapien, euismod maecenas adipiscing et ante, at dolor quis officiis. Ut adipiscing nullam nulla aliquam erat, ac non risus sit mi praesent sit, libero vestibulum. Eget in nec blandit semper venenatis, neque mus dui nunc, dui ante. Aenean a donec phasellus sed</p>
+                    <div class="locations">
+                        <h3>Locations</h3>
+                        <ul>
+                            <li>New Taipei City, Republic of China (Taiwan)</li>
+                            <li>Moscow, Russia</li>
+                            <li>Baghdad, Iraq</li>
+                        </ul>
+                    </div>
+                    <div class="byline">
+                        <address class="author">By <a rel="author" href="#">Debrah Trevino</a></address>
+                        10 days ago
+                    </div>
+                    <div class="read-more-wrapper">
+                        <a href="view-favor.html" class="button read-more">Read more</a>
+                    </div>
+                </article>
+            </li>
+                                                                     <li>
+                <article class="favor clearfix">
+                    <h2>Test favor 2</h2>
+                    <aside class="favor-details">
+                        <div class="favor-likes">
+                            <i class="fa fa-thumbs-up"></i>
+                            <span>825</span>
+                        </div>
+                        <div class="favor-views">
+                            <i class="fa fa-eye"></i>
+                            <span>1243</span>
+                        </div>
+                    </aside>
+                    <p class="description">Donec tortor morbi in posuere dui. Amet vehicula lorem at velit fringilla sit, molestie per eget, iaculis risus sapien, euismod maecenas adipiscing et ante, at dolor quis officiis. Ut adipiscing nullam nulla aliquam erat, ac non risus sit mi praesent sit, libero vestibulum. Eget in nec blandit semper venenatis, neque mus dui nunc, dui ante. Aenean a donec phasellus sed</p>
+                    <div class="locations">
+                        <h3>Locations</h3>
+                        <ul>
+                            <li>New Taipei City, Republic of China (Taiwan)</li>
+                            <li>Moscow, Russia</li>
+                            <li>Baghdad, Iraq</li>
+                        </ul>
+                    </div>
+                    <div class="byline">
+                        <address class="author">By <a rel="author" href="#">Debrah Trevino</a></address>
+                        10 days ago
+                    </div>
+                    <div class="read-more-wrapper">
+                        <a href="view-favor.html" class="button read-more">Read more</a>
+                    </div>
+                </article>
+            </li>
+            <li>
+                <article class="favor clearfix">
+                    <h2>Test favor 2</h2>
+                    <aside class="favor-details">
+                        <div class="favor-likes">
+                            <i class="fa fa-thumbs-up"></i>
+                            <span>825</span>
+                        </div>
+                        <div class="favor-views">
+                            <i class="fa fa-eye"></i>
+                            <span>1243</span>
+                        </div>
+                    </aside>
+                    <p class="description">Donec tortor morbi in posuere dui. Amet vehicula lorem at velit fringilla sit, molestie per eget, iaculis risus sapien, euismod maecenas adipiscing et ante, at dolor quis officiis. Ut adipiscing nullam nulla aliquam erat, ac non risus sit mi praesent sit, libero vestibulum. Eget in nec blandit semper venenatis, neque mus dui nunc, dui ante. Aenean a donec phasellus sed</p>
+                    <div class="locations">
+                        <h3>Locations</h3>
+                        <ul>
+                            <li>New Taipei City, Republic of China (Taiwan)</li>
+                            <li>Moscow, Russia</li>
+                            <li>Baghdad, Iraq</li>
+                        </ul>
+                    </div>
+                    <div class="byline">
+                        <address class="author">By <a rel="author" href="#">Debrah Trevino</a></address>
+                        10 days ago
+                    </div>
+                    <div class="read-more-wrapper">
+                        <a href="view-favor.html" class="button read-more">Read more</a>
+                    </div>
+                </article>
+            </li>
+            <li>
+                <article class="favor clearfix">
+                    <h2>Test favor 2</h2>
+                    <aside class="favor-details">
+                        <div class="favor-likes">
+                            <i class="fa fa-thumbs-up"></i>
+                            <span>825</span>
+                        </div>
+                        <div class="favor-views">
+                            <i class="fa fa-eye"></i>
+                            <span>1243</span>
+                        </div>
+                    </aside>
+                    <p class="description">Donec tortor morbi in posuere dui. Amet vehicula lorem at velit fringilla sit, molestie per eget, iaculis risus sapien, euismod maecenas adipiscing et ante, at dolor quis officiis. Ut adipiscing nullam nulla aliquam erat, ac non risus sit mi praesent sit, libero vestibulum. Eget in nec blandit semper venenatis, neque mus dui nunc, dui ante. Aenean a donec phasellus sed</p>
+                    <div class="locations">
+                        <h3>Locations</h3>
+                        <ul>
+                            <li>New Taipei City, Republic of China (Taiwan)</li>
+                            <li>Moscow, Russia</li>
+                            <li>Baghdad, Iraq</li>
+                        </ul>
+                    </div>
+                    <div class="byline">
+                        <address class="author">By <a rel="author" href="#">Debrah Trevino</a></address>
+                        10 days ago
+                    </div>
+                    <div class="read-more-wrapper">
+                        <a href="view-favor.html" class="button read-more">Read more</a>
+                    </div>
+                </article>
+            </li>
+            <li>
+                <article class="favor clearfix">
+                    <h2>Test favor 2</h2>
+                    <aside class="favor-details">
+                        <div class="favor-likes">
+                            <i class="fa fa-thumbs-up"></i>
+                            <span>825</span>
+                        </div>
+                        <div class="favor-views">
+                            <i class="fa fa-eye"></i>
+                            <span>1243</span>
+                        </div>
+                    </aside>
+                    <p class="description">Donec tortor morbi in posuere dui. Amet vehicula lorem at velit fringilla sit, molestie per eget, iaculis risus sapien, euismod maecenas adipiscing et ante, at dolor quis officiis. Ut adipiscing nullam nulla aliquam erat, ac non risus sit mi praesent sit, libero vestibulum. Eget in nec blandit semper venenatis, neque mus dui nunc, dui ante. Aenean a donec phasellus sed</p>
+                    <div class="locations">
+                        <h3>Locations</h3>
+                        <ul>
+                            <li>New Taipei City, Republic of China (Taiwan)</li>
+                            <li>Moscow, Russia</li>
+                            <li>Baghdad, Iraq</li>
+                        </ul>
+                    </div>
+                    <div class="byline">
+                        <address class="author">By <a rel="author" href="#">Debrah Trevino</a></address>
+                        10 days ago
+                    </div>
+                    <div class="read-more-wrapper">
+                        <a href="view-favor.html" class="button read-more">Read more</a>
+                    </div>
+                </article>
+            </li>
+        </ul>
+
+        <div class="pagination-wrapper">
+            <a href="#" onclick="return false;"><i class="fa fa-angle-double-left"></i></a>
+            <span>1/10</span>
+            <a href="#" onclick="return false;"><i class="fa fa-angle-double-right"></i></a>
+        </div>
+
+        </main>
+        <footer>
+            <div class="footer-wrapper clearfix">
+                <div class="footer-left">
+                    <h2>Contact information</h2>
+                    <address>
+                        Some awesome streetname<br>
+                        Some awesome city and country<br>
+                        Email: <a href="mailto:awesome@domeafavor.com">awesome@domeafavor.com</a>
+                    </address>
+                    <nav>
+                        <ul class="footer-menu">
+                            <li><a href="index.html">About</a></li>
+                            <li><a href="index.html">FAQ</a></li>
+                            <li><a href="index.html">Home</a></li>
+                        </ul>
+                    </nav>
+                    <div class="share-links">
+                        <ul>
+                            <li>
+                                <a href="#"><i class="fa fa-facebook-square fa-3x"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-twitter-square fa-3x"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-google-plus-square fa-3x"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-linkedin-square fa-3x"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <form id="contact-form" action="">
+                    <h2>Send us a message</h2>
+                    <input name="name" type="text" placeholder="Your name">
+                    <input name"email" type="text" placeholder="Your email">
+                    <textarea name="message" cols="10" rows="5" placeholder="Your message..."></textarea>
+                    <input type="submit" class="button action-button submit" value="Send message">
+                </form>
+            </div>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

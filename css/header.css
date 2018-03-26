@@ -1,0 +1,44 @@
+header {
+	background-color: #257985;
+}
+
+.center-wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+	
+.logo {
+	float: left;
+	font-size: 1.8em;
+	line-height: 110%;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 10px;
+}
+
+.logo a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.logo span {
+	display: block;
+	width: auto;
+}
+
+.user-actions-wrapper {
+	float: right;
+	padding: 10px;
+}
+
+.user-actions-wrapper .button {
+	font-size: 14px;
+	width: 150px;
+	padding: 0.3em 0.8em;
+	margin-left: 5px;
+}
+
+.user-actions-wrapper .fa {
+	float: left;
+	margin-top: 0.2em;
+}

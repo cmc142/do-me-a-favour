@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Answer - Do Me A Favor</title>
+</head>
+<body>
+	<style>
+		#map{
+			width:500px;
+			height:500px;
+		}
+	</style>
+	<div id="map"></div>
+
+	<script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.1.4.min.js"></script>
+	<script async defer
+			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAbM3qfZW4PSXzqi34w6Tr6L2NfZC6uacs&callback=initGoogleMaps">
+	</script>
+	
+
+	<script>
+		function initGoogleMaps()
+		{
+			var map = new google.maps.Map($("#map")[0], {
+				zoom: 4,
+				center: { lat: 50.363, lng: 10.044 }
+			});
+			map.addListener('click', function (e) {
+				placeMarkerAndPanTo(e.latLng, map);
+			});
+			var placeMarkerAndPanTo = function (latLng, map) {
+				var marker = new google.maps.Marker({
+					position: latLng,
+					map: map
+				});
+				marker.addListener('click', function () {
+					marker.setMap(null);
+				});
+			};
+		}
+
+	</script>
+</body>
+</html>

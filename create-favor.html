@@ -1,0 +1,133 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Ask a favor</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/create-favor.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <header>
+            <div class="center-wrapper clearfix">
+                <h1 class="logo"><a href="index.html"><span>Do</span><span>me a</span><span>favor</span></a></h1>
+                <div class="user-actions-wrapper">
+                    <a href="#" class="button sign-in">
+                        <i class="fa fa-sign-in"></i>
+                        Sign in
+                    </a>
+                    <a href="#" class="button sign-up">
+                        <i class="fa fa-user-plus"></i>
+                        Sign up
+                    </a>
+                </div>
+            </div>
+        </header>
+        <main>
+
+        <form id="create-favor-form" class="clearfix" action="">
+            <h1>Ask a favor</h1>
+            <label for"titlebox">Title</label>
+            <input type="text" name="titlebox" id="titlebox" placeholder="Enter favor title...">
+
+            <label for="description-box">Description</label>
+            <textarea id="description-box" name="description-box" rows="8" placeholder="Describe the favor in detail..."></textarea>
+
+            <fieldset>
+                <legend>Location</legend>
+                <div class="select-wrapper">
+                    <div class="select select-country">
+                        <span class="placeholder">Select country</span>
+                            <ul>
+                                <li data-value="denmark">Denmark</li>
+                                <li data-value="germany">Germany</li>
+                                <li data-value="holland">Holland</li>
+                                <li data-value="usa">USA</li>
+                                <li data-value="uk">UK</li>
+                            </ul>
+                        <input type="hidden" name="select-country"/>
+                    </div>
+                </div>
+                <div class="select-wrapper">
+                    <div class="select select-city">
+                        <span class="placeholder">Select city</span>
+                            <ul>
+                                <li data-value="copenhagen">Copenhagen</li>
+                                <li data-value="odense">Odense</li>
+                                <li data-value="aarhus">Aarhus</li>
+                                <li data-value="aalborg">Aalborg</li>
+                                <li data-value="esbjerg">Esbjerg</li>
+                            </ul>
+                        <input type="hidden" name="select-city"/>
+                    </div>
+                </div>
+            </fieldset>
+
+            <input type="submit" class="button action-button submit" value="Ask" id="postbutton" name="buttonpost"> </input>
+        </form>
+
+        </main>
+        <footer>
+            <div class="footer-wrapper clearfix">
+                <div class="footer-left">
+                    <h2>Contact information</h2>
+                    <address>
+                        Some awesome streetname<br>
+                        Some awesome city and country<br>
+                        Email: <a href="mailto:awesome@domeafavor.com">awesome@domeafavor.com</a>
+                    </address>
+                    <nav>
+                        <ul class="footer-menu">
+                            <li><a href="index.html">About</a></li>
+                            <li><a href="index.html">FAQ</a></li>
+                            <li><a href="index.html">Home</a></li>
+                        </ul>
+                    </nav>
+                    <div class="share-links">
+                        <ul>
+                            <li>
+                                <a href="#"><i class="fa fa-facebook-square fa-3x"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-twitter-square fa-3x"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-google-plus-square fa-3x"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-linkedin-square fa-3x"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <form id="contact-form" action="">
+                    <h2>Send us a message</h2>
+                    <input name="name" type="text" placeholder="Your name">
+                    <input name"email" type="text" placeholder="Your email">
+                    <textarea name="message" cols="10" rows="5" placeholder="Your message..."></textarea>
+                    <input type="submit" class="button action-button submit" value="Send message">
+                </form>
+            </div>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
